@@ -128,3 +128,18 @@ You can test predictions directly from the browser.
 If you liked this project, feel free to connect and give feedback! 🚀  
 
 ⭐ Don’t forget to star this repo if you found it useful!
+
+## 🔮 Example API Request
+
+POST /predict
+
+{
+  "Present_Price": 5.0,
+  "Kms_Driven": 30000,
+  "Owner": 0,
+  "Car_Age": 5,
+  "Fuel_Type_Diesel": 0,
+  "Fuel_Type_Petrol": 1,
+  "Seller_Type_Individual": 1,
+  "Transmission_Manual": 1
+}
